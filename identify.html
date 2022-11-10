@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstraps CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Favicon icon link tags -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Custom CSS file -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- Page start -->
+  <title>INDENTIFY</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR START-->
+  <!-- Navbar toggle start -->
+  <nav class="navbar navbar-expand-lg bg-light border-bottom">
+    <!-- Navbar container start -->
+    <div class="container-fluid">
+      <!-- Navbar brand logo start -->
+      <a class="navbar-brand mt-2 ms-5 mt-lg-0" href="index.html">
+        <img src="img/moths-and-butterflies-of-new-zealand-trust-logo.png" height="200"
+          alt="Moths and Butterflies of New Zealand Trust logo">
+      </a>
+      <!-- Navbar brand logo end-->
+      <!-- Toggle button start -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <!-- Toggle button end -->
+
+      <!-- Navbar brand logo start -->
+      <div class="collapse navbar-collapse" id="navbarToggler">
+
+        <!-- Navbar menu links start -->
+        <div class="navbar-nav ms-auto">
+
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Navbar Item #1 start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-3 dropdown-toggle link-dark" href="index.html" data-bs-toggle="dropdown"
+                aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="our-story.html">Our Story</a></li>
+              </ul>
+            </li>
+            <!-- Navbar Item #1 end-->
+
+            <!-- Navbar Item #2 start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-3 dropdown-toggle link-dark" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">Species</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="butterflies.html">Butterflies</a></li>
+                <li><a class="dropdown-item" href="moths.html">Moths</a></li>
+                <li><a class="dropdown-item" href="identify.html">Identify</a></li>
+              </ul>
+            </li>
+            <!-- Navbar Item #2 end -->
+
+            <!-- Navbar Item #3 start -->
+            <li class="nav-item px-3 link-dark">
+              <a class="nav-link active" href="news.html">News</a>
+            </li>
+            <!-- Navbar Item #3 end -->
+
+            <!-- Navbar Item #4 start -->
+            <li class="nav-item px-3 link-dark">
+              <a class="nav-link active" href="donate.html">Donate</a>
+            </li>
+            <!-- Navbar Item #4 end -->
+
+            <!-- Navbar Item #5 start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-3 dropdown-toggle link-dark" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">Join us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+              </ul>
+            </li>
+            <!-- Navbar Item #5 end -->
+
+            <!-- Navbar Item #6 start -->
+            <li class="nav-item dropdown">
+              <a class="nav-link px-3 dropdown-toggle link-dark" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">Contact us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
+              </ul>
+            </li>
+            <!-- Navbar Item #6 end -->
+            <!-- Navbar menu links end -->
+          </ul>
+          <!-- Search input field start -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <!-- Search input field end -->
+
+          <!-- Search button icon start -->
+          <button class="btn " type="submit"><img src="img/icon-search.png" alt="search icon" width="32" height="32"
+              class="rounded-circle">
+          </button>
+          <!-- Search button icon end -->
+
+          <!-- Profile login icon start -->
+          <div class="login-icon">
+            <a href="shop.html">
+              <img src="img/icon-user-red.png" alt="profile icon" width="40" height="40" class="rounded-circle">
+            </a>
+          </div>
+          <!-- Profile login icon end -->
+        </div>
+        <!-- Navbar menu links end -->
+      </div>
+      <!-- Navbar brand logo end -->
+    </div>
+    <!-- Navbar container start -->
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- PAGE HEADING START-->
+  <div class="py-5 text-center container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Identify</h1>
+      </div>
+    </div>
+  </div>
+  <!-- PAGE HEADING END-->
+
+  <!-- BUTTERFLY CARD ALBUM START-->
+  <div class="album py-2 bg-light">
+    <div class="container">
+      <h4 class="sub-heading py-3 text-center">Butterflies</h4>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 m-4">
+
+        <!-- Butterfly Card 1 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-monarch-jacqui-knight.jpg" class="card-img-top" alt="Monarch butterfly photo">
+            <div class="card-body">
+              <h3 class="card-title">MONARCH BUTTERFLY</h3>
+              <p><i>Danaus plexippus</i></p>
+              <h5 class="card-title">Kakahu or Kahuku</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 1 end -->
+        <!-- Butterfly Card 2 start-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-southern-blue-angela-moon-jones.jpg" class="card-img-top" alt="Photo of a Southern Blue Butterfly by Angela Moon-Jones">
+            <div class="card-body">
+              <h3 class="card-title">SOUTHERN BLUE BUTTERFLY</h3>
+              <p><i>Zizina oxleyi</i></p>
+              <h5 class="card-title">Pepe ao uri</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 2 end -->
+        <!-- Butterfly Card 3 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-red-admiral-zac-warren.jpg" class="card-img-top" alt="Photo of a Red Admiral Butterfly photo by Zac Warren">
+            <div class="card-body">
+              <h3 class="card-title">RED ADMIRAL BUTTERFLY</h3>
+              <p><i>Vanessa gonerilla gonerilla</i></p>
+              <h5 class="card-title">Kahukura</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 3 end -->
+        <!-- Butterfly Card 4 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-black-mountain-ringlet.jpg" class="card-img-top"
+              alt="Black mountain ringlet butterfly photo">
+            <div class="card-body">
+              <h3 class="card-title">BLACK MOUNTAIN RINGLET BUTTERFLY</h3>
+              <p><i>laten name</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 4 end -->
+        <!-- Butterfly Card 5 start-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-common-tussock-ringlet.jpg" class="card-img-top"
+              alt="Common tussock ringlet butterfly photo">
+            <div class="card-body">
+              <h3 class="card-title">COMMON TUSSOCK RINGLET BUTTERFLY</h3>
+              <p><i>laten name</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 5 end -->
+        <!-- Butterfly Card 6 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/butterfly-rauparahas-copper.jpg" class="card-img-top"
+              alt="Common tussock ringlet butterfly photo">
+            <div class="card-body">
+              <h3 class="card-title">RAUPARAHA COOPER BUTTERFLY</h3>
+              <p><i>laten name</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="butterflies.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Butterfly Card 6 end -->
+      </div>
+    </div>
+  </div>
+  <!-- BUTTERFLY CARD ALBUM END -->
+
+  <!-- MOTH CARD ALBUM START-->
+  <div class="album py-2 bg-light">
+    <div class="container">
+      <h4 class="sub-heading py-3 text-center">Moths</h4>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 m-4">
+
+        <!-- Moth Card 1 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-cabbage-tree-nicholas-martin.png" class="card-img-top" alt="Photo fo a Cabbage Tree Moth photo by Nicholas Martin">
+            <div class="card-body">
+              <h3 class="card-title">CABBAGE TREE MOTH</h3>
+              <h5 class="card-title">Pepe</h5>
+              <p><i>lEpiphryne verriculata</i></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 1 end-->
+        <!-- Moth Card 2 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-cinnabar.jpg" class="card-img-top" alt="Cinnabar moth photo">
+            <div class="card-body">
+              <h3 class="card-title">CINNABAR MOTH</h3>
+              <p><i>Tyria jacobaeae</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 2 end-->
+        <!-- Moth Card 3 start-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-slender-owlet.jpg" class="card-img-top" alt="Slender Owlet moth photo">
+            <div class="card-body">
+              <h3 class="card-title">SLENDER OWLET MOTH</h3>
+              <p><i>laten</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 3 end-->
+        <!-- Moth Card 4 start -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-slender-owlet.jpg" class="card-img-top" alt="Slender Owlet moth photo">
+            <div class="card-body">
+              <h3 class="card-title">SLENDER OWLET MOTH</h3>
+              <p><i>laten</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 4 end-->
+        <!-- Moth Card 5 start start-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-slender-owlet.jpg" class="card-img-top" alt="Slender Owlet moth photo">
+            <div class="card-body">
+              <h3 class="card-title">SLENDER OWLET MOTH</h3>
+              <p><i>laten</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 5 end-->
+        <!-- Moth Card 6 start-->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/moth-slender-owlet.jpg" class="card-img-top" alt="Slender Owlet moth photo">
+            <div class="card-body">
+              <h3 class="card-title">SLENDER OWLET MOTH</h3>
+              <p><i>laten</i></p>
+              <h5 class="card-title">Te Reo name</h5>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="moths.html"> <button class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Moth Card 6 end-->
+      </div>
+    </div>
+  </div>
+  <!-- MOTH CARD ALBUM END -->
+
+  <!--  Add Identifying table checklist -->
+
+  <!-- FOOTER START -->
+  <!-- Footer container starts-->
+  <div class="footer-container p-5">
+    <footer class="py-5">
+      <!-- Footer row start -->
+      <div class="row">
+        <!--Footer Section #1 start -->
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Main Menu</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0">About</a></li>
+            <li class="nav-item mb-2"><a href="identify.html" class="nav-link p-0">Species</a></li>
+            <li class="nav-item mb-2"><a href="news.html" class="nav-link p-0">News</a></li>
+            <li class="nav-item mb-2"><a href="donate.html" class="nav-link p-0">Donate</a></li>
+            <li class="nav-item mb-2"><a href="join.html" class="nav-link p-0">Join us</a></li>
+            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0">Contact us</a></li>
+          </ul>
+        </div>
+        <!--Footer Section #1 end -->
+
+        <!--Footer Section #2 start -->
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Sub Menu</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="our-story.html" class="nav-link p-0">Our Story</a></li>
+            <li class="nav-item mb-2"><a href="butterflies.html" class="nav-link p-0">Butterflies</a></li>
+            <li class="nav-item mb-2"><a href="moths.html" class="nav-link p-0">Moths</a></li>
+            <li class="nav-item mb-2"><a href="identify.html" class="nav-link p-0">Identify</a></li>
+            <li class="nav-item mb-2"><a href="shop.html" class="nav-link p-0">Shop</a></li>
+            <li class="nav-item mb-2"><a href="faq.html" class="nav-link p-0">FAQ's</a></li>
+          </ul>
+        </div>
+        <!--Footer Section #2 end -->
+
+        <!--Footer Section #3 start -->
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Extra links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Sponsors</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Privacy policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Terms and conditions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Login</a></li>
+          </ul>
+        </div>
+        <!--Footer Section #3 end -->
+
+        <!-- Newsletter subscribe start -->
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-secondary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <!-- Newsletter subscribe end -->
+
+        <!-- Footer Copyright start -->
+        <div class="row">
+          <small class="copyright">© Moths and Butterflies of New Zealand Trust 2022</small>
+        </div>
+        <br>
+        <br>
+        <!-- Footer Copyright end -->
+
+        <!-- Social Media Links Start-->
+        <div class="col-12">
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/mbnzt" target="_blank"
+            role="button">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/mothsandbutterfliesnztrust/"
+            target="_blank" role="button">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/mbnztorg" target="_blank"
+            role="button">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.pinterest.nz/mbnzt/" target="_blank"
+            role="button">
+            <i class="fab fa-pinterest"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1"
+            href="https://www.youtube.com/channel/UCk_2svpMpVVY2lKrVWlzSjg" target="_blank" role="button">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <!-- Social Media Links end -->
+
+        <!--Footer web address start -->
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+
+          <a href="http://127.0.0.1:5500/index.html" class="link">www.nzbutterflies.co.nz</a>
+        </div>
+        <!--Footer web address end -->
+      </div>
+      <!-- Footer row end -->
+    </footer>
+    <!-- FOOTER END -->
+  </div>
+  <!-- Footer container ends-->
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/222e21d044.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstraps JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+  </script>
+
+  <!-- Custom JS tags -->
+  <script src="JS/script.js"></script>
+
+</body>
+
+</html>
