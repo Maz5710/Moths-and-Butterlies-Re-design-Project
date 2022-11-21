@@ -11,3 +11,6 @@ Through the UX research process the objectives of the re-design were to make the
 
 ## Figma Mock-up of landing page
 ![mbtnz_iPhone 12 Mockup](https://user-images.githubusercontent.com/115663122/201199871-cab96cdb-5a98-475e-bbff-a00ea43ca744.png)
+
+## Disclaimer
+The logos and images in this project have come from the Moths and Butterflies New Zealand Trust website, however this is not a commercial webiste.  It is student assignment only.
