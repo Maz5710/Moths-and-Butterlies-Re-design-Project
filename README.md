@@ -1,7 +1,7 @@
-# Moths and Butterlies Website Re-design Prjoect
+# Moths and Butterflies Website Re-design Project
 
 ## Disclaimer
-The logos and images in this project are the property of the Moths and Butterflies New Zealand Trust. All images have been used for academic purposes only while studying at Yoobee College. This is not a commercial website and this project code is the property of Marian Arnot. 
+The logos and images in this project are the property of the Moths and Butterflies New Zealand Trust. All images have been used for academic purposes only while studying at Yoobee College. This is not a commercial website, and this project code is the property of Marian Arnot. 
 
 ## UX Design Assignment
 The aim of this project was to practice the fundamentals of UX design, incorporating user feedback in the design in an iterative process to achieve the desired outcome. This project included advanced HTML and CSS, and introduction to JavaScript to create interactive effects.
